@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'AzureRmPipeline-rg'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/GetItDone4/AzureRmPipeline4.git'
+    csmFileLink: 'https://raw.githubusercontent.com/GetItDone4/AzureRmPipeline4/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAABTYEFRZ2NIIAJFDOB2PGLKCYTADCRQ'
     overrideParameters: '-projectName AzDemoProArm'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
